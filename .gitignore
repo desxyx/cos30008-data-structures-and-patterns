@@ -1,0 +1,34 @@
+cat > .gitignore <<'EOF'
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+
+# Node / frontend (if you use it later)
+node_modules/
+dist/
+build/
+*.log
+
+# Env / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# PDFs / exports (keep locally, don't push)
+*.pdf
+
+# Misc
+.DS_Store?
+EOF
